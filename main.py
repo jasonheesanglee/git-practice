@@ -1,15 +1,17 @@
 # Test python env
 
 def print_hello():
-    animals = ['dogs', 'cat', 'hamster'] # in one line
+    animals = ['dogs', 'cat', 'hamster', 'tigers'] # in one line
     foods = [
 	'Spaghetti',
-	'Pizza'
+	'Pizza',
+	'bibimbab'
     ] # without trailing comma
     names = [
         'John',
         'Jane',
 	'Gil-dong',
+	'Dong-eun',
     ] # with trailing comma
     for f_name in names:
         print(f'hello, {f_name}')
